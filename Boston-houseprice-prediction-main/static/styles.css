@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('zixi-zhou-Ic8B165N1og-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+.container {
+    text-align: center;
+    margin: 10% auto; 
+    background: rgba(0, 0,0, 0.4);
+    padding: 30px;
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    max-width: 700px; 
+    width: 90%;
+    overflow: auto;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 10% auto;
+    padding: 10px; 
+    border-radius: 20px;
+    max-width: 800px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold; 
+    text-transform: uppercase
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #ec9053; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #983d00;
+}
+#result-container {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 15px;
+    border-radius: 10px;
+}
+#result {
+    font-weight: bold;
+    color: #000000;
+}
+
